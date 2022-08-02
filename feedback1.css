@@ -1,0 +1,120 @@
+body{
+    margin-left: 5px;
+    background-color: aliceblue;
+}
+h4{
+    padding: 0px;
+    margin: 0px;
+}
+sup{
+    color:red;
+    padding:0px;
+    
+}
+#lastname{
+    margin-left: 20px;    
+}
+.rate{
+    color: orange;
+    
+    padding-top: 5px;
+   
+ }
+table{
+    width: 700px;
+    border: 0px;
+}  
+th{
+    padding: 10px;
+    text-align: center;
+}
+td{
+    text-align: center;
+    padding: 5px;
+
+}
+
+#group3
+{
+    margin: 0px;
+    padding: 0px;
+    border:0px;
+
+}
+#group1
+{
+    margin: 0px;
+    padding: 0px;
+    border:0px;
+
+}
+#group2
+{
+    margin: 0px;
+    padding: 0px;
+    border:0px;
+}
+
+#group4
+{
+    margin: 0px;
+    padding: 0px;
+    border:0px;
+
+}
+#group5
+{
+    margin: 0px;
+    padding: 0px;
+    border:0px;
+
+}
+#group6
+{
+    margin: 0px;
+    padding: 0px;
+    border:0px;
+
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+.rate {
+    float: left;
+    height: 46px;
+    padding: 0 10px;
+}
+.rate:not(:checked) > input {
+    position:absolute;
+    top:-9999px;
+}
+.rate:not(:checked) > label {
+    float:right;
+    width:1em;
+    overflow:hidden;
+    white-space:nowrap;
+    cursor:pointer;
+    font-size:30px;
+    color:#ccc;
+}
+.rate:not(:checked) > label:before {
+    content: '★ ';
+}
+.rate > input:checked ~ label {
+    color: #ffc700;    
+}
+.rate:not(:checked) > label:hover,
+.rate:not(:checked) > label:hover ~ label {
+    color: #deb217;  
+}
+.rate > input:checked + label:hover,
+.rate > input:checked + label:hover ~ label,
+.rate > input:checked ~ label:hover,
+.rate > input:checked ~ label:hover ~ label,
+.rate > label:hover ~ input:checked ~ label {
+    color: #c59b08;
+}
+
+
+
